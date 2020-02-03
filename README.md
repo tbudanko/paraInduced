@@ -17,7 +17,9 @@ The output file *paraInduced.log* contains the induced drag coefficient and the 
 
 Currently, the script works only for symmetric, half-domain cases. As is, the script is set for the left half-domain (looking in the direction of flight). The currently assumed, body-centered, right handed coordinate system, is oriented so that the *x* axis is colinear with the airplane chord and pointing "back", with the *y* axis pointing "up" and the *z* axis pointing left along the span. To use the script either the case has to be transformed to this coordinate system or the script has to be modified. 
 
+### Validation
 
+paraInduced was validated on the case of a high aspect ratio flat plate. The results obtained with OpenFOAM and paraInduced coincided excellently with the results obtained with Prandtl's lifting-line method.
 
 
 
