@@ -1,9 +1,9 @@
 # paraInduced
-paraInduced is a Python script loaded in ParaView through the Python shell meant for extracting circulation and calculating the induced drag of a wing or airplane OpenFOAM case. 
+paraInduced is a ParaView-Pythong script meant for extracting circulation and calculating the induced drag of a wing or airplane. It has so far only been used with OpenFOAM cases, but other formats can be analyzed with some modification. 
 
 The theoretical basis for the procedure is *Munk's stagger theorem*, according to which any lift producing object will have the same induced drag as a lifting line with the same spanwise distribution of circulation.
 
-This script was written for use in a research work. Before use, it needs to be readjusted to the case in question, but because it's not long or complex this is manageable. 
+This script was written for use in a research work. Before use, it needs to be readjusted to the studied case, but it is not long or complex
 
 ### How to use
 
