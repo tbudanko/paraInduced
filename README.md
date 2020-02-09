@@ -3,7 +3,7 @@ paraInduced is a ParaView-Pythong script meant for extracting circulation and ca
 
 The theoretical basis for the procedure is *Munk's stagger theorem*, according to which any lift producing object will have the same induced drag as a lifting line with the same spanwise distribution of circulation.
 
-This script was written for use in a research work. Before use, it needs to be readjusted to the studied case, but it is not long or complex
+This script was written for use in a research work. Before use, it needs to be readjusted to the studied case, but it is not long or complex. It is currently only valid for wings without dihedral or winglets.
 
 ### How to use
 
